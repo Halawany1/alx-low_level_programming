@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -14,10 +12,10 @@ char i;
 
 for (i = 'a' ; i <= 'z' ; i++)
 {
-if (i!='q||i!='e')
+if (i != 'q' || i != 'e')
 	putchar(i);
 }
 putchar('\n');
 
 return (0);
-}
+}}
