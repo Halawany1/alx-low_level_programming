@@ -10,16 +10,12 @@
  */
 int main(void)
 {
-int n;
+string n = "abcdefghijklmnopqrstuvwxyz";
 
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-
-for (char i = 'a' ; i <= 'z' ; i++)
+for (char  i = 0 ; i < 26 ; i++)
 {
-putchar(i);
+putchar(n[i]);
 }
 
-	return (0);
-
+return (0);
 }
