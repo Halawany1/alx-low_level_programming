@@ -1,3 +1,4 @@
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -10,11 +11,9 @@
  */
 int main(void)
 {
-string n = "abcdefghijklmnopqrstuvwxyz";
-
-for (char  i = 0 ; i < 26 ; i++)
+for (char i = 'a' ; i <= 'z' ; i++)
 {
-putchar(n[i]);
+putchar(i);
 }
 
 return (0);
