@@ -1,11 +1,19 @@
-#include <unistd.h>
-#include <stdio.h>
+#include "main.h"
 /**
- * main - entry program
- * Return : Always 1 (Sucess)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
-void main(void)
+int main(void)
 {
-print("_putchar\n");
-return (0);
+	char *s = "_putchar";
+
+	while (*s)
+	{
+		_putchar(*s);
+		sh++;
+	}
+	_putchar('\n');
+
+	return (0);
 }
