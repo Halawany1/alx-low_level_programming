@@ -1,12 +1,16 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_alphabet -  prints the alphabet, in lowercase
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-int main(void)
+void print_alphabet(void);
 {
-    print_alphabet();
-    return (0);
+int i;
+for (i = 'a' ; i <= 'z' ; i++)
+{
+_putchar(i);
+}
+_putchar('\n');
 }
