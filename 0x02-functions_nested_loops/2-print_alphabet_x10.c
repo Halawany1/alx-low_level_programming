@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * print_alphabet_x10 -  prints the alphabet, in lowercase 10 time
  * Return: On success 1.
