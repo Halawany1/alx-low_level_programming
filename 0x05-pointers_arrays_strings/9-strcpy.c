@@ -1,19 +1,21 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 /**
- * _strcpy -function that prints half of string, in reverse
- * @dest: pointer to char
- * @src: pointer to char
- * Return: void
+ * _strcpy - Copiar el contenido de uno a otra variable
+ * @dest: This is destiny
+ * @src: This is the copia
+ *
+ * Return: This return copy
  */
 char *_strcpy(char *dest, char *src)
 {
-int i = 0;
+	char *start = dest;
 
-while (src[i] != "\0")
-{
-dest[i] = src[i];
-i++;
-}
-return (dest);
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
+	return (start);
 }
