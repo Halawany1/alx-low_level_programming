@@ -15,4 +15,5 @@ for (i = 0 ; i < x ; i++)
 if (i % 2 == 0)
 printf("%c", str[i]);
 }
+printf("\n");
 }
