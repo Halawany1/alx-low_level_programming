@@ -6,10 +6,12 @@
  */
 void print_number(int n)
 {
+unsigned int n1;
+n1 = n;
 if (n < 0)
 {
 _putchar('-');
-n = -n;
+n1 = -n;
 }
 
 if (n == 0)
@@ -17,9 +19,9 @@ if (n == 0)
 _putchar('0');
 return (0);
 }
-if (n / 10)
+if (n1 / 10)
 {
-print_number(n / 10);
+print_number(n1 / 10);
 }
-_putchar(n % 10 + '0');
+_putchar(n1 % 10 + '0');
 }
