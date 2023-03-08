@@ -11,8 +11,8 @@ for (i = 0 ; i < 8 ; i++)
 {
 for (q = 0 ; q < 8 ; q++)
 {
-printf("%c", a[i][q]);
+_putchar(a[i][q]);
 }
-printf("\n");
+_putchar('\n');
 }
 }
