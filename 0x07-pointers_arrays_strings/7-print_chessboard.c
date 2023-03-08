@@ -6,7 +6,7 @@
  */
 void print_chessboard(char (*a)[8])
 {
-int i, q, k = strlen(a);
+int i, q;
 for (i = 0 ; i < 8 ; i++)
 {
 for (q = 0 ; q < 8 ; q++)
