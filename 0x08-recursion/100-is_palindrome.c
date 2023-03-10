@@ -18,10 +18,7 @@ a++;
 b--;
 isplind(s, a, b);
 }
-else
-{
 return (0);
-}
 }
 /**
  * is_palindrome- return if string isplindrome or no
