@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 /**
  * sqr - given sqrt of numbers
  * @a:number
